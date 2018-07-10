@@ -7,7 +7,9 @@ import re
 
 class Qiushi(object):
     def __init__(self):
-        self.headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'}
+        self.headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X \
+        10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 \
+         Safari/537.36'}
         self.baseUrl = 'https://www.qiushibaike.com'
         self.spilUrl = 'https://www.qiushibaike.com/8hr/page/'
         self.file = open('/Users/smt/Desktop/test.txt', 'a+')
@@ -16,7 +18,7 @@ class Qiushi(object):
             soup = BeautifulSoup(html, 'lxml')
             divs = soup.find_all('div', re.compile('^article'))
             for div in divs:
-                if div.find_all('div','thumb'):
+                if div.find_all('div', 'thumb'):
                     continue
                 elif div.find_all('div', 'content'):
                     self.file.write(div.span.get_text())
