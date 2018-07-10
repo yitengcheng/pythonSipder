@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-## -*- coding: utf-8 -*-
+# encoding='utf-8'
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -12,7 +12,8 @@ class Qiushi(object):
          Safari/537.36'}
         self.baseUrl = 'https://www.qiushibaike.com'
         self.spilUrl = 'https://www.qiushibaike.com/8hr/page/'
-        self.file = open('/Users/smt/Desktop/test.txt', 'a+')
+        self.file = open('E:/pythonWork/pythonSipder/results/qiushibaike.txt\
+            ', 'a+', encoding='utf-8')
 
     def spider(self, html):
             soup = BeautifulSoup(html, 'lxml')
