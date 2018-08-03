@@ -1,0 +1,23 @@
+missing module named resource - imported by posix, E:\pythonWork\baiduwenku\get_page.py
+missing module named posix - imported by os, E:\pythonWork\baiduwenku\get_page.py
+missing module named _posixsubprocess - imported by subprocess, E:\pythonWork\baiduwenku\get_page.py
+missing module named org - imported by pickle, E:\pythonWork\baiduwenku\get_page.py
+missing module named readline - imported by cmd, code, pdb, E:\pythonWork\baiduwenku\get_page.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, E:\pythonWork\baiduwenku\get_page.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, E:\pythonWork\baiduwenku\get_page.py
+missing module named _winreg - imported by platform, selenium.webdriver.firefox.firefox_binary, E:\pythonWork\baiduwenku\get_page.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, E:\pythonWork\baiduwenku\get_page.py
+missing module named 'java.lang' - imported by platform, xml.sax._exceptions, E:\pythonWork\baiduwenku\get_page.py
+missing module named vms_lib - imported by platform, E:\pythonWork\baiduwenku\get_page.py
+missing module named termios - imported by tty, getpass, E:\pythonWork\baiduwenku\get_page.py
+missing module named grp - imported by shutil, tarfile, E:\pythonWork\baiduwenku\get_page.py
+missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, netrc, getpass, E:\pythonWork\baiduwenku\get_page.py
+missing module named 'org.python' - imported by copy, xml.sax, E:\pythonWork\baiduwenku\get_page.py
+missing module named _dummy_threading - imported by dummy_threading, E:\pythonWork\baiduwenku\get_page.py
+missing module named urllib2 - imported by selenium.webdriver.common.utils, selenium.webdriver.remote.remote_connection, selenium.webdriver.common.service
+missing module named StringIO - imported by selenium.webdriver.remote.webelement
+missing module named urlparse - imported by selenium.webdriver.remote.remote_connection
+missing module named httplib - imported by selenium.webdriver.firefox.webdriver, selenium.webdriver.remote.remote_connection, selenium.webdriver.safari.webdriver, selenium.webdriver.blackberry.webdriver, selenium.webdriver.webkitgtk.webdriver
+missing module named cStringIO - imported by selenium.webdriver.firefox.firefox_profile
+missing module named copy_reg - imported by cStringIO
